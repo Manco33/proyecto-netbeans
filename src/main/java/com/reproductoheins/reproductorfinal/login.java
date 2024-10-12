@@ -96,6 +96,11 @@ public class login extends javax.swing.JFrame {
         jLabel3.setText("contraseña");
 
         btn_crear_usuario.setText("crear usuario ");
+        btn_crear_usuario.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                btn_crear_usuarioMouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -215,6 +220,10 @@ public class login extends javax.swing.JFrame {
         }
     }
     }//GEN-LAST:event_btn_loginMouseClicked
+
+    private void btn_crear_usuarioMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn_crear_usuarioMouseClicked
+       
+    }//GEN-LAST:event_btn_crear_usuarioMouseClicked
     
     /**
      * @param args the command line arguments
